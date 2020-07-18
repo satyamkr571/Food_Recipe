@@ -1,0 +1,371 @@
+
+#b_h 
+{
+    color: navy;
+    text-justify: auto;
+    text-align: center;
+}
+.container{
+  position: relative;
+  text-align: center;
+  padding-left: 10%;
+  color: white;
+}
+
+h1
+{
+    font-size: 50px;
+}
+#p1
+{
+    text-align: left;
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+body
+{
+    background-color:black;
+}
+#header
+{
+    position: relative;
+}
+
+#menu{
+    height: 100pX;
+    margin: -100px;
+    padding-right: 150px;
+}
+
+ul
+{
+    font-family: Arial, Verdana;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style:circle;
+}
+
+ul li
+{
+    border-spacing: 50px;
+    display: block;
+    position: relative;
+    float: right;
+}
+
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration:none;
+    color:bisque;
+    padding: 5px 15px 5px 15px;
+    background: none;
+    margin-left: 1px;
+    letter-spacing: 1px;
+}
+
+ul li a:hover 
+{
+    background: none; 
+}
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{
+    float: none;
+    font-size: 20px;
+}
+
+li:hover a 
+{
+    background-color:brown;
+}
+
+li:hover li a:hover 
+{
+    background-color: brown;
+}
+
+
+#Page_Body
+{
+    margin-top: 150px;
+    position: relative;
+}
+
+.centered 
+{
+  position: absolute;
+  top: 10%;
+  color:azure;
+  font-size: 50px;
+  text-align: center;
+  width:100%
+}
+.search_button 
+{
+  position: absolute;
+  top: 20%;
+  padding-left: 20%;
+  color:azure;
+  font-size: 20px;
+  width:70%;
+  padding-top: 10px;
+}
+
+form.example input[type=text] {
+  padding: 18px;
+  font-size: 35px;
+  border: 3px solid grey;
+  float: left;
+  width: 65%;
+  background: #f1f1f1;
+  height:46px;
+}
+
+form.example button {
+  float: left;
+  width: 25%;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 3px solid grey;
+  border-left: none;
+  cursor: pointer;
+  height:90px;
+  
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#Footer
+{
+    height: 300px;
+    width:100%;
+    background-color: black;
+}
+#Upper_Footer
+{
+    height: 250px;
+    width:100%;   
+}
+.address
+{
+  position: relative;
+  width: 30%;
+  color: wheat;
+  font-size: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  word-spacing: 5px;
+
+}
+.social_contact
+{
+  position: relative;
+  width:70%;
+  float: right;
+}
+#Lower_Footer
+{
+    height: 30px;
+    width:100%;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    background-color:red;
+    position: relative;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align:center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: royalblue;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: orangered;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  background: linear-gradient(120deg, blue, blueviolet, purple, coral, red, orangered);
+  color: linear-gradient(120deg, blue, blueviolet, purple, coral, red, orangered);
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+#f_l_w
+{
+    text-align: right;
+    font-family: cursive;
+    font-size: 15px;
+    margin-right: 50px;
+    padding-top: 20px;
+    color: darkred;
+}
+#u_f_w
+{
+    text-align: right;
+    font-family: cursive;
+    font-size: 25px;
+    margin-right: 50px;
+    color:antiquewhite;
+    margin-top: 170px;
+}
+
+
+
+#Page_Body2
+{
+    top :10%;
+    position: absolute;
+    
+}
+.centered_about
+{
+  position: absolute;
+  top: 10%;
+  padding-left: 10%;
+  color:white;
+  font-size: 28px;
+  width:70%;
+  padding-top: 10px;
+}
+
+
+.loginput
+{ 
+		width: 80%; 
+		display: inline-block; 
+		border: 2px solid grey; 
+		box-sizing:border-box;
+        height: 30px;
+} 
+	/*set a style for the buttons*/ 
+	
+	#btn { 
+		background-color: #4CAF50; 
+		color: white; 
+		padding: 14px 20px; 
+		margin: 8px 0; 
+		border: 2px solid grey; 
+		cursor: pointer; 
+		width: 25%; 
+        
+	} 
+	/* set a hover effect for the button*/ 
+	
+	btn:hover { 
+		opacity: 0.8; 
+	} 
+	/*set extra style for the cancel button*/ 
+	
+	.cancelbtn { 
+		width: 25%; 
+		padding: 10px 18px;
+        border: 2px solid grey; 
+		background-color: #f44336; 
+	} 
+	/*centre the display image inside the container*/ 
+	
+	.imgcontainer { 
+		text-align: center; 
+		margin: 50px 0 10px 0; 
+	} 
+	/*set image properties*/ 
+	
+	img.avatar { 
+		width: 30%; 
+		border-radius: 10%; 
+	} 
+	/*set padding to the container*/ 
+	
+	.container { 
+		padding: 20px; 
+	} 
+	/*set the forgot password text*/ 
+	
+	span.psw { 
+		
+		padding-top: 10px; 
+	}  
+
+.centered_login
+{
+  position: absolute;
+  top: 10%;
+  color:azure;
+  font-size: 18px;
+  text-align: center;
+  width:100%
+}
+
+.login
+{
+    border: 5px solid grey;
+    width:400px;
+    margin-left: 35%;
+    background-color: brown;
+    height: 450px;
+    transition: 3s;
+    
+}
+.signup
+{
+    border: 5px solid grey;
+    width:400px;
+    margin-left: 35%;
+    background-color:saddlebrown;
+    height: 450px;
+    transition: 3s;
+}
+
